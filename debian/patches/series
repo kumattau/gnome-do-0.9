@@ -3,3 +3,4 @@
 51_fix_mono3.patch
 61_add_migemo.patch
 71_add_extra_desktop.patch
+81_support_mate.patch

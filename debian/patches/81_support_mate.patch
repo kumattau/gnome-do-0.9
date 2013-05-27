@@ -1,0 +1,16 @@
+Index: gnome-do-0.9/Do.Platform.Linux/src/Do.Universe/ApplicationItem.cs
+===================================================================
+--- gnome-do-0.9.orig/Do.Platform.Linux/src/Do.Universe/ApplicationItem.cs	2013-05-28 04:26:01.456830539 +0900
++++ gnome-do-0.9/Do.Platform.Linux/src/Do.Universe/ApplicationItem.cs	2013-05-28 04:27:34.282662986 +0900
+@@ -199,6 +199,11 @@
+ 				string notShowIn = item.GetString ("NotShowIn");
+ 				string desktopSession = Environment.GetEnvironmentVariable ("XDG_CURRENT_DESKTOP");
+ 
++				// for MATE desktop environment
++				if (desktopSession == null) {
++					desktopSession = Environment.GetEnvironmentVariable ("DESKTOP_SESSION");
++				}
++
+ 				if (desktopSession == null) {
+ 					// Legacy fallbacks:
+ 					// If KDE_FULL_SESSION is true, assume kde.
