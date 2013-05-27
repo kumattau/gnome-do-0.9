@@ -1,0 +1,5 @@
+01_fix_libX11_linkage.diff
+02_use_cli_for_wrapper.diff
+51_fix_mono3.patch
+61_add_migemo.patch
+71_add_extra_desktop.patch

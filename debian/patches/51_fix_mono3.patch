@@ -1,0 +1,44 @@
+Index: gnome-do-0.9/Do.Interface.Linux.Classic/Makefile.am
+===================================================================
+--- gnome-do-0.9.orig/Do.Interface.Linux.Classic/Makefile.am	2012-01-14 22:49:58.000000000 +0900
++++ gnome-do-0.9/Do.Interface.Linux.Classic/Makefile.am	2013-05-28 02:26:10.887874943 +0900
+@@ -22,4 +22,5 @@
+ PROJECT_REFERENCES = \
+ 	Do.Interface.Linux \
+ 	Do.Interface.Linux.AnimationBase \
+-	Do.Platform
++	Do.Platform \
++	Do.Platform.Linux
+Index: gnome-do-0.9/Do.Interface.Linux.GlassFrame/Makefile.am
+===================================================================
+--- gnome-do-0.9.orig/Do.Interface.Linux.GlassFrame/Makefile.am	2012-01-14 22:49:58.000000000 +0900
++++ gnome-do-0.9/Do.Interface.Linux.GlassFrame/Makefile.am	2013-05-28 02:26:50.248659299 +0900
+@@ -21,4 +21,5 @@
+ PROJECT_REFERENCES = \
+ 	Do.Interface.Linux \
+ 	Do.Interface.Linux.AnimationBase \
+-	Do.Platform
++	Do.Platform \
++	Do.Platform.Linux
+Index: gnome-do-0.9/Do.Interface.Linux.HUD/Makefile.am
+===================================================================
+--- gnome-do-0.9.orig/Do.Interface.Linux.HUD/Makefile.am	2012-01-14 22:49:58.000000000 +0900
++++ gnome-do-0.9/Do.Interface.Linux.HUD/Makefile.am	2013-05-28 02:27:12.445101609 +0900
+@@ -21,4 +21,5 @@
+ PROJECT_REFERENCES = \
+ 	Do.Interface.Linux \
+ 	Do.Interface.Linux.AnimationBase \
+-	Do.Platform
++	Do.Platform \
++	Do.Platform.Linux
+Index: gnome-do-0.9/Do.Interface.Linux.Mini/Makefile.am
+===================================================================
+--- gnome-do-0.9.orig/Do.Interface.Linux.Mini/Makefile.am	2012-01-14 22:49:58.000000000 +0900
++++ gnome-do-0.9/Do.Interface.Linux.Mini/Makefile.am	2013-05-28 02:27:34.237535862 +0900
+@@ -21,4 +21,5 @@
+ PROJECT_REFERENCES = \
+ 	Do.Interface.Linux \
+ 	Do.Interface.Linux.AnimationBase \
+-	Do.Platform
++	Do.Platform \
++	Do.Platform.Linux
